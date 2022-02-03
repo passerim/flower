@@ -15,10 +15,12 @@
 """Flower main package."""
 
 
-from . import client, server, simulation
+from . import client, server, simulation, common, dataset
 
 __all__ = [
     "client",
     "server",
     "simulation",
+    "common",
+    "dataset",
 ]
